@@ -4,7 +4,7 @@
   "description": "Online White Board-Dicussion Table",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
 
   },
   "author": "Vishvanath Silva",
