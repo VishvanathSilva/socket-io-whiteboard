@@ -12,8 +12,8 @@ function onConnection(socket){
 }
 
 io.on('connection',(socket) =>{
-  // console.log(socket.id);
-  onConnection
+  console.log(socket.id);
+  onConnection(socket);
 
 });
 
