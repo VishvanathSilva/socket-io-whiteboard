@@ -12,7 +12,7 @@ function onConnection(socket){
 }
 
 io.on('connection',(socket) =>{
-  console.log(socket.id);
+  // console.log(socket.id);
   onConnection
 
 });
